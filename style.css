@@ -7,8 +7,8 @@
 html {
   font-family: Montserrat, sans-serif;
   font-size: 24px;
-  color: #262626;
-  background-color: #F2F2F2;
+  color: #d6cdbf;
+  background-color: #5e2e27;
 }
 
 nav {
@@ -22,15 +22,15 @@ nav {
 }
 
 nav a {
-  color: black;
+  color: #d6cdbf;
   padding-left: 1.2rem;
-  text-decoration: none;
+  text-decoration: underline;
   font-weight: bold;
   font-size: 1rem;
 }
 
 nav a:hover {
-  color: #56C489;
+  color: #d4c99a;
 }
 
 .splashimage {
@@ -45,12 +45,13 @@ nav a:hover {
 }
 
 .h1title {
-  font-size: 6vw;
+  font-size: 4vw;
   text-align: center;
   text-transform: uppercase;
   font-weight: 800;
   font-style: italic;
-  color: white;
+  color: #d6cdbf;
+  text-shadow:1px 1px 5px black;
 }
 
 body {
@@ -60,12 +61,14 @@ body {
 }
 
 .articletext{
-  column-count: 3;
-  column-gap: 48px;
-  text-align: justify;
+  
+  column-count: 2;
+  column-gap: 70px;
+  text-align: left;
 }
 
 p{
+  font-size: 18px;
   line-height: 36px;
   padding-bottom: 12px;
 }
@@ -78,41 +81,30 @@ h1{
 
 h2 {
   font-style: italic;
-  font-size: 19px;
-  margin-bottom: 48px;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 50px;
   font-weight: 400;
 }
 
 h3{
+  color: #d4c99a;
   font-style: italic;
-  font-size: 19px;
-  margin-bottom: 48px;
-  font-weight: 400;
-}
-
-@media only screen and (max-width: 480px) {
-  html {
-    font-size: 16px;
-    color: #dddddd;
-    background-color: #000000;
-    text-align: center;
-  }
-  body {
-    width: 75vw;
-    min-width: 200px;
-  }
-  .text {
-    column-count: 1;
-  }
+  font-size: 27px;
+  margin-bottom: 20px;
+  font-weight: 700;
 }
 
 footer {
   width: 100%;
-  height: 300px;
-  background-color: black;
+  height: 250px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2e1815;
   color: white;
   margin-top: 90px;
-  padding-top: 100px;
+  padding-top: 50px;
 
 }
 
@@ -125,7 +117,7 @@ footer a {
 }
 
 footer a:hover {
-  color: #56C489;
+  color: #0b2934;
 }
 
 .footer-stuff {
@@ -151,7 +143,23 @@ footer a:hover {
 .copyright {
   font-size: 1rem;
   text-align: center;
-  color: #56C489;
+  color: #d6cebf;
 }
 
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 16px;
+    color: #d6cdbf;
+    background-color: #5e2e27;
+    text-align: center;
+    line-height: 24px; 
+  }
+  body {
+    width: 75%;
+    min-width: 200px;
+  }
+  .text {
+    column-count: 1;
+  }
+}
 
