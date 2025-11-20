@@ -55,44 +55,45 @@ nav a:hover {
 }
 
 body {
-  width: 80vw;
-  min-width: 1000px;
   margin: 48px auto;
+  width: 100%;
+  min-width: 0;
 }
 
-.articletext{
-  
+.articletext {
   column-count: 2;
   column-gap: 70px;
   text-align: left;
+  padding: 0 2vw; 
 }
 
-p{
-  font-size: 18px;
-  line-height: 36px;
-  padding-bottom: 12px;
+p {
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 20px; 
+  padding: 0;   
 }
 
-h1{
-    font-family: Montserrat, serif;
-    font-weight: 700;
-    margin-bottom: 6px;
+h1 {
+  font-family: Montserrat, serif;
+  font-weight: 700;
+  margin-bottom: 6px;
 }
 
 h2 {
   font-style: italic;
-  font-size: 50px;
+  font-size: 35px;
   text-align: center;
-  margin-top: 25px;
-  margin-bottom: 50px;
-  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 75px;
+  font-weight: 600;
 }
 
 h3{
   color: #d4c99a;
   font-style: italic;
-  font-size: 27px;
-  margin-bottom: 20px;
+  font-size: 25px;
+  margin-bottom: 5 px;
   font-weight: 600;
 }
 
@@ -121,8 +122,8 @@ footer a:hover {
 }
 
 .footer-stuff {
-  width: 65vw;
-  height: 50px;
+  width: 100%;
+  padding: 0 2vw;   /* matches articletext margins */
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -131,6 +132,7 @@ footer a:hover {
 }
 
 .footer-content {
+  font-size: 20px;
   width: 450px;
   height: 150px;
   display: flex;
@@ -162,4 +164,5 @@ footer a:hover {
     column-count: 1;
   }
 }
+
 
