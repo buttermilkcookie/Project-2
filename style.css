@@ -98,15 +98,13 @@ h3{
 }
 
 footer {
+  position: relative;
   width: 100%;
   height: 250px;
-  justify-content: space-between;
-  align-items: center;
   background-color: #2e1815;
   color: white;
   margin-top: 90px;
   padding-top: 50px;
-
 }
 
 footer a {
@@ -123,7 +121,7 @@ footer a:hover {
 
 .footer-stuff {
   width: 100%;
-  padding: 0 2vw;   /* matches articletext margins */
+  padding: 0 2vw; 
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -143,9 +141,13 @@ footer a:hover {
 }
 
 .copyright {
-  font-size: 1rem;
-  text-align: center;
+  position: absolute;
+  right: 2vw;      
+  bottom: 20px;     
+  text-align: right;
   color: #d6cebf;
+  font-size: 1rem;
+  display: block; 
 }
 
 @media only screen and (max-width: 480px) {
@@ -164,5 +166,3 @@ footer a:hover {
     column-count: 1;
   }
 }
-
-
