@@ -152,17 +152,80 @@ footer a:hover {
 
 @media only screen and (max-width: 480px) {
   html {
-    font-size: 16px;
+    font-size: 16px;   
+    line-height: 24px;
     color: #d6cdbf;
     background-color: #5e2e27;
-    text-align: center;
-    line-height: 24px; 
   }
+
   body {
-    width: 75%;
-    min-width: 200px;
+    width: 100%;
+    margin: 24px auto;
+    min-width: 0;
   }
-  .text {
-    column-count: 1;
+
+  nav {
+    height: auto;
+    padding: 15px 20px;
+    justify-content: center;  
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  nav a {
+    font-size: 0.9rem;
+    padding: 0;
+  }
+
+  .splashimage {
+    height: 60vw;
+  }
+
+  .h1title {
+    font-size: 8vw;   
+    padding: 0 10px;
+  }
+
+  .articletext {
+    column-count: 2;          
+    column-gap: 20px;
+    padding: 0 5vw;          
+    text-align: left;
+  }
+
+  p {
+    font-size: 15px;
+    line-height: 26px;
+  }
+
+  h2 {
+    font-size: 22px;
+    line-height: 35px;
+    margin-bottom: 25px;
+  }
+
+  h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+  }
+
+  .footer-stuff {
+    flex-direction: column;
+    text-align: left;
+    gap: 20px;
+    padding: 0 5vw;
+  }
+
+  .footer-content {
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+  }
+
+  .copyright {
+    right: 5vw;
+    bottom: 20px;
+    font-size: 0.85rem;
   }
 }
